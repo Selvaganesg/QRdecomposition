@@ -25,7 +25,13 @@ To implement QR decomposition algorithm using the Gram-Schmidt method.
 ### Gram-Schmidt Method
 ```
 
-
+#Program to find the inverse of a matrix.
+#Developed by: b.selvaganesh
+#RegisterNumber:24900817
+import numpy as np
+matrix=np.array([[6,2,3],[3,1,1],[10,3,4]])
+inverse=np.linalg.inv(matrix)
+print(inverse)
 
 
 
@@ -34,9 +40,9 @@ To implement QR decomposition algorithm using the Gram-Schmidt method.
 ```
 
 ## Output
-```
 
-```
+![output](png.3.png)
+
 
 ## Result
 Thus the QR decomposition algorithm using the Gram-Schmidt process is written and verified the result.
